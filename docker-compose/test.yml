@@ -1,0 +1,10 @@
+services:
+  dev-app:
+    build:
+      context: ..
+
+    volumes:
+      - ..:/src
+
+    command: >
+      sh -c "pytest -s -v app/tests/"

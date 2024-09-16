@@ -1,0 +1,6 @@
+fastapi>=0.114.2
+uvicorn>=0.30.6
+pydantic>=2.7.3
+pytest>=3.10.1
+pytest-asyncio>0.23.8
+httpx>=0.23.3
